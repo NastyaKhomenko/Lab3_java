@@ -22,10 +22,13 @@ public class Main {
         List<CarCleaningGoods> goods = new ArrayList<CarCleaningGoods>();
     
         goods.add(new CarCleaningGoods("Detergent","Mr.Proper","Poland",20,50,Quality.MEDIUM));
-        goods.add(new CarCleaningGoods("Detergent","Amway","Germany",24,60,Quality.GOOD));
         goods.add(new CarCleaningGoods("Brusher","Rock","Poland",10,30,Quality.BAD));
         goods.add(new CarCleaningGoods("Duster","CrystalClean","France",30,55,Quality.GOOD));
         goods.add(new CarCleaningGoods("High Pressure Washer","Karcher","Germany",3,5000,Quality.GOOD));
+        goods.add(new Duster(Size.S, "soft", "black"));
+        goods.add(new Brusher("light",Convenience.COMFORTABLE));
+        goods.add(new Detergent(1.0 ,"glass"));
+        goods.add(new HighPressureWasher( 120));
     
        
         
